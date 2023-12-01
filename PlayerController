@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.Collections;
 using UnityEngine;
 
+
 [RequireComponent(typeof(CharacterController))]
-public class PlayerController : MonoBehaviour
+public class FPS : MonoBehaviour
 {
     public Camera playerCamera;
     public float walkSpeed = 6f;
